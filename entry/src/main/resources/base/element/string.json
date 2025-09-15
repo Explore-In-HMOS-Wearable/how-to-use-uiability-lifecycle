@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "title_text",
+      "value": "UIAbility Lifecycle Tracker"
+    },
+    {
+      "name": "refresh_button",
+      "value": "🔄 Refresh Logs"
+    }
+  ]
+}

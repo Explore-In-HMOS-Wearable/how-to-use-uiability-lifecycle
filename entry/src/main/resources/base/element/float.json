@@ -1,0 +1,40 @@
+{
+  "float": [
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "padding_small",
+      "value": "10vp"
+    },
+    {
+      "name": "margin_small",
+      "value": "10vp"
+    },
+    {
+      "name": "margin_top",
+      "value": "20vp"
+    },
+    {
+      "name": "margin_bottom",
+      "value": "5vp"
+    },
+    {
+      "name": "border_radius",
+      "value": "10vp"
+    },
+    {
+      "name": "small_font_size",
+      "value": "10fp"
+    },
+    {
+      "name": "medium_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "large_font_size",
+      "value": "14fp"
+    }
+  ]
+}
