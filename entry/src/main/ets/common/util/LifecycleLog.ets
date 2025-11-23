@@ -1,5 +1,4 @@
-// Export the LifecycleLog class as default
-export default class LifecycleLog {
+export default class LifeCycleLog {
   // A static array to store log messages
   static logs: string[] = [];
 
@@ -8,20 +7,20 @@ export default class LifecycleLog {
     // Get the current time (hours:minutes:seconds format)
     const timestamp = new Date().toLocaleTimeString();
     // Insert the new message at the beginning of the array with timestamp
-    LifecycleLog.logs.unshift(`[${timestamp}] ${message}`);
+    LifeCycleLog.logs.unshift(`[${timestamp}] ${message}`);
     // If there are more than 20 logs, remove the oldest one
-    if (LifecycleLog.logs.length > 20) {
-      LifecycleLog.logs.pop();
+    if (LifeCycleLog.logs.length > 20) {
+      LifeCycleLog.logs.pop();
     }
   }
 
   // Static method to return all stored logs
   static getAll(): string[] {
-    return LifecycleLog.logs;
+    return LifeCycleLog.logs;
   }
 
   // Static method to clear all logs
   static clear() {
-    LifecycleLog.logs = [];
+    LifeCycleLog.logs = [];
   }
 }

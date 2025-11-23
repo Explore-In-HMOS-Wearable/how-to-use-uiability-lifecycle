@@ -1,4 +1,4 @@
-import LifecycleLog from '../common/util/LifecycleLog';
+import LifeCycleLog from '../common/util/LifeCycleLog';
 
 /**
  * Entry point of the application.
@@ -10,13 +10,13 @@ struct Index {
   /**
    * Stores the lifecycle logs to be displayed in the UI.
    */
-  @State logs: string[] = LifecycleLog.getAll();
+  @State logs: string[] = LifeCycleLog.getAll();
 
   /**
    * Updates the log list by retrieving the latest lifecycle logs.
    */
   updateLog() {
-    this.logs = [...LifecycleLog.getAll()];
+    this.logs = [...LifeCycleLog.getAll()];
   }
 
   /**
